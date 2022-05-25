@@ -1,0 +1,28 @@
+package Java2class;
+
+public class Java2 {
+
+	public static void main(String[] args) {
+		int a=1;
+		while(1000>a){
+		 if((a%3)==0 &&(a&5)==0) {
+			 System.out.println(a);
+		 }
+		 a++;
+			
+		
+		
+		}
+	}
+	class point{
+		int xPos,yPos;
+		public point(int x,int y) {
+			xPos = x;
+			yPos = y;
+			}
+		public void showPointUnfo() {
+			System.out.println("["+xPos+","+yPos+"]");
+		}
+	}
+
+}
